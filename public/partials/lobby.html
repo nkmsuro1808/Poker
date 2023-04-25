@@ -2,7 +2,7 @@
 	<div class="modal-wrap" ng-show="!$root.screenName">
 		<div class="modal">
 			<form ng-submit="register()">
-				<label for="screen-name-input">Enter your screen name</label>
+				<label for="screen-name-input">ここに名前を入力してください。</label>
 				<p class="table-requirements error" ng-show="registerError">{{registerError}}</p>
 				<input id="screen-name-input" class="input-left" type="text" ng-model="newScreenName" ng-trim="true" required>
 				<input type="submit" value="Submit">
@@ -23,6 +23,3 @@
 		</tr>
 	</table>
 </div>			
-<p id="developer-info">
-	Developed by George Balasis. View the code on <a href="https://github.com/geobalas/Poker" target="_blank">github</a>.
-</p>
